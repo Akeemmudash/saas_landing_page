@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { Link as LinkScroll } from "react-scroll";
 
 const NavLink = ({ title }) => (
-  <LinkScroll className="base-bold text-primary-4 uppercase transition-colors duration-500 cursor-pointer hover:text-primary-1">
+  <LinkScroll className="base-bold text-primary-4 uppercase transition-colors duration-500 cursor-pointer hover:text-primary-1 max-lg:my-4 max-lg:h5">
     {title}
   </LinkScroll>
 );

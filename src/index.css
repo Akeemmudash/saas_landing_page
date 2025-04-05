@@ -99,7 +99,7 @@ img {
 }
 
 button {
-  @apply bg-none tracking-[-0.03em];
+  @apply tracking-[-0.03em] cursor-pointer;
 }
 
 input {
@@ -109,59 +109,59 @@ input {
   @apply font-inter text-[72px] font-bold leading-[84px];
 }
 
-.h1 {
+@utility h1 {
   @apply text-[84px] font-black leading-[84px] tracking-[-0.03em];
 }
 
-.h2 {
+@utility h2 {
   @apply text-[64px] font-black leading-[64px];
 }
 
-.h3 {
+@utility h3 {
   @apply text-[48px] font-semibold leading-[56px] tracking-[-0.02em];
 }
 
-.h4 {
+@utility h4 {
   @apply text-[40px] font-semibold leading-[52px];
 }
 
-.h5 {
+@utility h5 {
   @apply text-[32px] font-semibold leading-[40px];
 }
 
-.h6 {
+@utility h6 {
   @apply text-[24px] font-medium leading-[36px];
 }
 
-.body-1 {
+@utility body-1 {
   @apply text-[22px] leading-[36px];
 }
 
-.body-2 {
+@utility body-2 {
   @apply text-[18px] font-semibold leading-[32px];
 }
 
-.body-3 {
+@utility body-3 {
   @apply text-[16px] leading-[28px] tracking-[0.02em];
 }
 
-.base {
+@utility base {
   @apply text-[16px] font-medium leading-[24px] tracking-[0.03em];
 }
 
-.base-bold {
+@utility base-bold {
   @apply text-[16px] font-bold leading-[24px];
 }
 
-.base-small {
+@utility base-small {
   @apply text-[14px] font-semibold leading-[18px] tracking-[0.03em];
 }
 
-.small-1 {
+@utility small-1 {
   @apply text-[14px] font-semibold leading-[18px] tracking-[0.03em];
 }
 
-.small-2 {
+@utility small-2 {
   @apply text-[12px] font-bold leading-[16px] tracking-[0.3em];
 }
 
@@ -171,49 +171,49 @@ input {
 
 /* END of Typography */
 /* START of Gradients */
-.g1 {
+@utility g1 {
   @apply bg-[linear-gradient(rgba(196,203,245,0.5),transparent)];
 }
 
-.g2 {
+@utility g2 {
   background: linear-gradient(#3062a3, #19549f);
 }
 
-.g3 {
+@utility g3 {
   background: linear-gradient(#3c52d9, #0c1838);
 }
 
-.g4 {
+@utility g4 {
   background: linear-gradient(#253575, #162561);
 }
 
-.g5 {
-  background: linear-gradient(#334679, #162561);
+@utility g5 {
+  @apply bg-[linear-gradient(#334679,#162561)];
 }
 
-.g6 {
+@utility g6 {
   background: linear-gradient(#334679, #0c1838);
 }
 
-.g7 {
+@utility g7 {
   @apply bg-[linear-gradient(#1b275a,#0e1434)];
 }
 
-.g8 {
+@utility g8 {
   @apply bg-[linear-gradient(to_right,transparent,#2ef2ff,transparent)];
 }
 
-.g9 {
+@utility g9 {
   background: linear-gradient(#080d27, transparent);
 }
 
 /* END of Gradients */
 /* START of Common */
-.container {
+@utility container {
   @apply mx-auto max-w-[1252px] px-16 max-xl:px-10 max-lg:px-6 max-sm:px-4;
 }
 
-.caption {
+@utility caption {
   @apply text-[12px] font-bold leading-[16px] tracking-[0.3em] mb-5 uppercase text-primary-3;
 }
 
@@ -221,7 +221,7 @@ input {
   display: none;
 }
 
-.scroll-hide {
+@utility scroll-hide {
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
 }
@@ -232,7 +232,7 @@ input {
   @apply text-primary-3;
 }
 
-.nav-li {
+@utility nav-li {
   @apply relative flex flex-1 items-center justify-between max-lg:flex-col max-lg:items-start;
 }
 
@@ -256,7 +256,7 @@ input {
 
 /* END of Hero */
 /*START of Custom Button*/
-.inner-before {
+@utility inner-before {
   @apply before:bg-[linear-gradient(#1b275a,#0e1434)] before:absolute before:inset-0 before:opacity-0 before:transition-opacity before:duration-500 before:content-[''];
 }
 
