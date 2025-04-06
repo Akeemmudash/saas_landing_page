@@ -323,20 +323,20 @@ input {
 
 /* END of FAQ */
 /* START of Testimonials */
-.testimonials_head-res {
+@utility testimonials_head-res {
   @apply max-2xl:mr-6 max-xl:mr-3 max-lg:mx-auto max-lg:mb-36 max-lg:max-w-330 max-lg:text-center max-md:mb-24 max-md:max-w-52;
 }
 
-.testimonials_inner-before {
+@utility testimonials_inner-before {
   @apply before:pointer-events-none before:absolute before:-top-28 before:left-[calc(50%-1px)] before:h-[calc(100%+218px)] before:w-0.5 before:bg-secondary-2 before:content-[''] before:max-lg:top-0 before:max-lg:h-full before:max-md:hidden;
 }
 
-.testimonials_inner-after {
+@utility testimonials_inner-after {
   @apply after:pointer-events-none after:absolute after:-bottom-52 after:left-[calc(50%-1px)] after:h-24 after:w-0.5 after:bg-secondary-5 after:content-[''] after:max-lg:-bottom-24 after:max-md:hidden;
 }
 
-.testimonials_group-after {
-  @apply after:pointer-events-none after:absolute after:-bottom-[212px] after:left-[calc(50%-5px)] after:z-2 after:size-2.5 after:rounded-half after:border-2 after:border-secondary-2 bg-secondary-5 after:bg-secondary-1 after:content-[''] max-lg:after:-bottom-[102px] max-md:after:hidden;
+@utility testimonials_group-after {
+  @apply after:pointer-events-none after:absolute after:-bottom-[212px] after:left-[calc(50%-5px)] after:z-2 after:size-2.5 after:rounded-half after:border-2 after:border-secondary-2 after:bg-secondary-1 after:content-[''] max-lg:after:-bottom-[102px] max-md:after:hidden;
 }
 
 /* END of Testimonials */
