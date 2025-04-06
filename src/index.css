@@ -280,7 +280,7 @@ input {
   @apply before:absolute before:-bottom-44 before:left-1/5 before:h-96 before:w-13/20 before:bg-secondary-4/50 before:blur-[200px] before:content-[''];
 }
 
-.pricing-head_btn {
+@utility pricing-head_btn {
   @apply text-[16px] font-bold leading-[24px] relative z-2 h-16 flex-1 uppercase text-primary-5 transition-colors duration-500 hover:text-primary-4;
 }
 

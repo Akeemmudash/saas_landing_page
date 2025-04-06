@@ -1,4 +1,3 @@
-import clsx from "clsx";
 import React, { useEffect, useState } from "react";
 import { Link as LinkScroll } from "react-scroll";
 import { cn } from "../utils";
@@ -18,7 +17,7 @@ const Header = () => {
   }, []);
   const NavLink = ({ title }) => (
     <LinkScroll
-      onClick={setIsOpen(false)}
+      onClick={() => setIsOpen(false)}
       to={title}
       offset={-100}
       activeClass="nav-active"
