@@ -7,9 +7,10 @@ A clean and modern landing page for a Software-as-a-Service (SaaS) product. Buil
 - Responsive design for all screen sizes
 - Hero section with CTA
 - Product features showcase
-- Testimonials section
 - Pricing plans
 - FAQ section
+- Testimonials section
+- Download sectiom
 - Footer with links and contact info
 
 ## 🔧 Tech Stack
@@ -26,3 +27,7 @@ cd saas-landing-page
 pnpm install
 pnpm  dev
 ```
+
+## Live Demo
+
+A live demo can be found [here](https://x-line-saas-landing-page.netlify.app/)
