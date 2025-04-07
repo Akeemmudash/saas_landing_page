@@ -16,7 +16,7 @@ A clean and modern landing page for a Software-as-a-Service (SaaS) product. Buil
 
 - [React](https://reactjs.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
-- [Vite](https://vitejs.dev/) _(if used)_
+- [Vite](https://vitejs.dev/)
 
 ## 📦 Installation
 
